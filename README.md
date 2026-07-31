@@ -119,7 +119,17 @@ Jenkins supports:
 - C/C++
 
 ---
+## Jenkins Pipeline Steps
 
+- **Unit Testing:** Tests individual functions or modules to ensure they work correctly.
+- **Static Code Analysis:** Checks the source code for coding errors and best practices without running it.
+- **Code Quality / Vulnerability:** Finds code quality issues and security vulnerabilities.
+- **Automation:** Automatically builds, tests, and deploys the application without manual work.
+- **Report:** Generates build, test, and code quality results for review.
+- **Deployment:** Releases the application to a server or production environment.
+
+
+---
 # How Jenkins Fits into CI/CD
 
 When a developer writes code and pushes it to Git, Jenkins automatically performs several steps before deploying the application.
